@@ -7,15 +7,13 @@
 
 main {
   #digitalClock {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, 50%);
+    color: green;
+    height: 100vh;
+    width: 100%;
+    display: flex;
     justify-content: center;
     align-items: center;
-    font-weight: bolder;
-    font-size: xx-large;
-    color: lime;
     font-family: "Roboto";
+    font-size: 4rem;
   }
 }
